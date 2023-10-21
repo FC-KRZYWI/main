@@ -6,4 +6,65 @@ body {
     box-sizing: border-box;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(31, 31, 31);
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2%;
+    width: 25%;
+    padding: 2%;
+    border: 0px;
+    border-radius: 6px;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.15);
+    background: rgb(238, 201, 35);
+}
+
+.title {
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.text {
+    text-align: left;
+    width: 75%;
+}
+
+.text-input, .password {
+    width: 75%;
+    border: 0;
+    border-radius: 8px;
+    height: 28px;
+    font-weight: bolder;
+    padding: 1%;
+    transition: 0.2s;
+}
+
+.login {
+    width: 40%;
+    border: 0;
+    border-radius: 8px;
+    height: 40px;
+    margin-top: 3%;
+    padding: 1%;
+    font-weight: bolder;
+    background-color: rgb(47, 130, 255);
+    color: white;
+    transition: 0.2s;
+}
+
+.text-input:hover, .password:hover {
+    background-color: rgb(209, 233, 255);
+}
+
+
+.login:hover {
+    scale: 1.04;
+    rotate: 2deg;
+    background-color: rgb(33, 108, 220);
+    font-size: medium;
 }
