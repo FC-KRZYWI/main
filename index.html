@@ -7,7 +7,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Under construction.</h1>
-    <p style="bottom: 0; position: absolute; text-align: center; width: 100%;">&copy; fc-krzywi 2023</p>
+    <div class="container">
+        <p class="title">FC Krzywi</p>
+        <p class="text">Nazwa użytkownika:</p>
+        <input type="text" class="text-input">
+        <p class="text">Hasło:</p>
+        <input type="password" class="password">
+        <input type="button" value="Zaloguj się" class="login" onclick="document.querySelector('.error').innerHTML = 'Nazwa użytkownika lub hasło jest nieprawidłowe.'">
+        <p class="error" style="color:  red; text-align: center; font-size: small; margin-top: 2%;"></p>
+    </div>
+    <p style="bottom: 0; position: fixed; text-align: center; width: 100%; color: white;">&copy; fc-krzywi 2023</p>
 </body>
 </html>
