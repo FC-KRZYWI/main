@@ -4,7 +4,7 @@ function checkData(x, y) {
       return res.json()
     })
     .then(data => {
-       const users = data.users;
+       const users = [['ok','ok'],['ok2','ok2']];
 
        for (let user in users) {
          if (user[0] == x && user[1] == y) {
