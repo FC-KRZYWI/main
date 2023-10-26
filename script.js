@@ -16,7 +16,7 @@ function checkData(x, y) {
     })
   .catch(error => {
     console.error(error);
-  }
+  });
 };
 
 document.querySelector('.login').addEventListener('click',() => {
